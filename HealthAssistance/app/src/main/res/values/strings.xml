@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HealthAssistance</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="supplement_widget_title">Supplement widget</string>
+    <string name="supplement_score">Supplement score</string>
+    <string name="tablets_taken">%1$d/%2$d tablet taken</string>
+    <string name="set_notification">Set notification</string>
+    <string name="notification_subtitle">It helps you don\'t forget to take your pills</string>
+    <string name="morning">Morning</string>
+    <string name="omega_3">Omega 3</string>
+    <string name="omega_3_dose">Dose: 1500mg | 1 pill</string>
+    <string name="omega_3_features">Features: before meals</string>
+    <string name="nmn">NMN</string>
+    <string name="nmn_dose">Dose: 150mg | 1 pill</string>
+    <string name="nmn_features">Features: after meals</string>
+    <string name="to_take_at">To take at %1$s</string>
+    <string name="new_supplement">New supplement</string>
+    <string name="resveratrol">Resveratrol</string>
+    <string name="menu_clicked">Menu clicked</string>
+    <string name="notification_set">Notification set</string>
+    <string name="add_new_supplement">Add new supplement</string>
+</resources>

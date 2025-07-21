@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Medicine Name -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="@color/purple_600"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_pill"
+                app:tint="@color/white" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textMedicineName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panadol"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Dosage -->
+    <TextView
+        android:id="@+id/textDosage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="1200 mg"
+        android:textColor="@color/gray_300"
+        android:textSize="14sp"
+        android:gravity="center_vertical" />
+
+    <!-- Pills -->
+    <TextView
+        android:id="@+id/textPills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2"
+        android:textColor="@color/gray_300"
+        android:textSize="14sp"
+        android:gravity="center_vertical" />
+
+    <!-- Time -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:35 AM"
+            android:textColor="@color/gray_300"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textTiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="With meals"
+            android:textColor="@color/gray_400"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="Jul 04, 2024"
+        android:textColor="@color/gray_300"
+        android:textSize="14sp"
+        android:gravity="center_vertical" />
+
+    <!-- Status -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <View
+            android:id="@+id/statusIndicator"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/status_indicator_background" />
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taken"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
