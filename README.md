@@ -9,7 +9,7 @@ an Application to help with medication, tracking etc.
 
 Robot Features:
 
-- Medical Robot that comes to the patient via a line to follow using IR Sensors when it is time to take their medication.
+- Medical Robot that comes to the patient via a line to follow using IR Sensors, and will also avoid any objects that are in the way when it is time to take their medication.
 - When arrived to patient, a buzzer will go iff incase patient is sleeping and a tray opens with the medication for the patient to take.
 - Temperature and heart rate sensors are placed on the robot where the patient can keep their thumb and both temperature and
   heart rate will be checked.
